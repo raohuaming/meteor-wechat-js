@@ -3,6 +3,12 @@ This is a library to use wechat js api, including get accessToken, get jsTicket,
 For more details, please refer to [wechat official doc](http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html).
 
 # Usage
+
+```
+meteor add huaming:wechat-js
+
+```
+
 First configure your WECHAT_APP_ID and WECHAT_APP_SECRET in process.env.
 
 # WechatJs
