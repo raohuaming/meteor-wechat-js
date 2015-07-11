@@ -30,7 +30,6 @@ Package.onUse(function(api) {
   api.addFiles('shared/collections/wechat_js_tickets.js', ['client', 'server']);
   api.addFiles('shared/collections/wechat_tokens.js', ['client', 'server']);
   api.addFiles('server/lib/wechat_js.js', 'server');
-  api.addFiles('server/methods/api.js', 'server');
   api.addFiles('client/templates/app.html', 'client');
 
 });
