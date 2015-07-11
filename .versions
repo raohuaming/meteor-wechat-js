@@ -16,12 +16,12 @@ geojson-utils@1.0.3
 html-tools@1.0.4
 htmljs@1.0.4
 http@1.1.0
-huaming:wechat-js@0.0.1
+huaming:wechat-js@0.0.2
 id-map@1.0.3
 jquery@1.11.3_2
 json@1.0.3
 less@1.0.14
-local-test:huaming:wechat-js@0.0.1
+local-test:huaming:wechat-js@0.0.2
 logging@1.0.7
 matb33:collection-hooks@0.7.13
 meteor@1.1.6
