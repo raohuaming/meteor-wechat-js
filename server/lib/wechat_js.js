@@ -56,7 +56,7 @@ WechatJs = (function buildAPI(){
     },
     generateJsConfig: function( url ){
       var noncestr = ( new Mongo.ObjectID() )._str;
-      var timestamp = Date.now();
+      var timestamp = Math.floor(Date.now()/1000);
       var ticket = WechatJsTickets.getCurrentTicket();
       var signature = this.generateTicketSignature( noncestr, ticket, timestamp, url );
       return {
