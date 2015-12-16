@@ -1,6 +1,6 @@
 Package.describe({
   name: 'huaming:wechat-js',
-  version: '0.0.2',
+  version: '0.0.3',
   // Brief, one-line summary of the package.
   summary: 'This is a library to use wechat js api, including get accessToken, get jsTicket, using wx library',
   // URL to the Git repository containing the source code for this package.
